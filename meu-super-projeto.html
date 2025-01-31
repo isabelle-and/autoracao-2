@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projeto Final - HTML + CSS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meu Super Projeto</h1>
+  </header>
+
+  <main class="container">
+    <section id="midias">
+      <h2>Mídias e SVG</h2>
+      <img src="https://picsum.photos/400/300" alt="Imagem Lorem Picsum" />
+
+      <!-- SVG inline -->
+      <svg width="150" height="150">
+        <rect x="10" y="10" width="100" height="50" fill="var(--cor-principal)" />
+        <circle cx="60" cy="100" r="30" fill="var(--cor-secundaria)" />
+      </svg>
+
+      <audio controls>
+        <source src="audio_exemplo.mp3" type="audio/mpeg">
+        Seu navegador não suporta a tag de áudio!
+      </audio>
+
+      <video width="320" height="240" controls>
+        <source src="https://github.com/rafaelreis-hotmart/Audio-Sample-files/raw/refs/heads/master/sample.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo!
+      </video>
+    </section>
+
+    <section id="texto-dinamico">
+      <h2>Seção com Texto</h2>
+      <p class="texto-destaque">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>
+        <span>Proin pellentesque</span> nunc vel sapien vulputate, sed dictum enim molestie.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Este é só um exemplo, mas tá show!</p>
+  </footer>
+</body>
+</html>

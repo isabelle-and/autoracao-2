@@ -1,0 +1,62 @@
+/* Variáveis para reutilizar */
+:root {
+    --cor-principal: #3498db;
+    --cor-secundaria: #2ecc71;
+    --fonte-principal: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilizando header e footer */
+  header, footer {
+    background-color: var(--cor-principal);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Container central com margem */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: var(--cor-principal);
+  }
+  
+  .texto-destaque {
+    background-color: #ffebcc;
+    padding: 10px;
+    border-left: 4px solid #ffa500;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    body {
+      background-color: #ddd; /* só pra ver mudança */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      background-color: #cccccc;
+    }
+  
+    video, img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  

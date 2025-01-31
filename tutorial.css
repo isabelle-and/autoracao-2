@@ -1,0 +1,35 @@
+
+:root {
+    --cor-principal: #656470;
+    --cor-secundaria: #aeaec7;
+  }
+/* Seletor = h1 */
+h1 {
+    color: rgb(251, 255, 0);       
+    font-size: 30px;   
+  }
+
+.caixa h1{
+    border: 10rem;
+    padding: 30rem;
+  }
+
+ 
+/* Estilos padrões (para desktop ou telas maiores) */
+body {
+  background-color: rgb(82, 75, 75);
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas até 768px (tablets) */
+  body {
+    background-color: lightpink;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas até 480px (smartphones) */
+  body {
+    background-color: lightblue;
+  }
+}

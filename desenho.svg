@@ -1,0 +1,11 @@
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<title>SVG Externo</title>
+</head>
+<body>
+<h1>SVG via <img></h1>
+<!--  O SVG é importado como imagem  -->
+<img src="https://dvisvgm.de/Examples/images/frktest.svg" alt="Texto escrito com a fonte Fraktur, desenvolvida por Yannis Haralambous"/>
+</body>
+</html>
